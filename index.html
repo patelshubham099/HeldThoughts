@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Held Thoughts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand">Held Thoughts</div>
+        <div class="topbar-links">
+          <a href="#latest">Latest</a>
+          <a href="#topics">Topics</a>
+          <a href="#about">About</a>
+        </div>
+      </nav>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Held Thoughts</p>
+        <h1>Thoughts I wanted to keep somewhere.</h1>
+        <p class="hero-text">
+          A quiet place for writing about work, tech, life, culture, ambition, and whatever else stays long enough to deserve a page.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#latest">Start reading</a>
+          <a class="button button-secondary" href="#about">About</a>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <p class="hero-panel-label">Lately</p>
+        <ul>
+          <li>Trying to build with more care</li>
+          <li>Thinking about attention and the internet</li>
+          <li>Learning to prefer depth over noise</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="latest">
+        <div class="section-heading">
+          <p class="section-kicker">Writing</p>
+          <h2>Recent posts</h2>
+        </div>
+        <div class="post-grid" id="post-grid"></div>
+      </section>
+
+      <section class="section topics" id="topics">
+        <div class="section-heading">
+          <p class="section-kicker">Topics</p>
+          <h2>Things I keep returning to</h2>
+        </div>
+        <div class="topic-pills" id="topic-pills"></div>
+      </section>
+
+      <section class="section article-section">
+        <article class="article-card" id="article-view">
+          <p class="article-placeholder">Pick a post and read it here.</p>
+        </article>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <p class="section-kicker">About</p>
+          <h2>Why this exists</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>
+              This space exists to hold thoughts that would otherwise get lost in the noise.
+            </p>
+            <p>
+              No feed, no pressure, no performance. Just writing kept in one place.
+            </p>
+          </div>
+          <div class="about-note">
+            <p class="about-note-title">A small archive</p>
+            <p>A place for ideas, questions, and things worth returning to.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Held Thoughts</p>
+    </footer>
+  </div>
+
+  <script src="posts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
