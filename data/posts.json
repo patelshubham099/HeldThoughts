@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "slug": "taste-over-volume",
+      "title": "Why taste matters more than output",
+      "category": "Tech",
+      "date": "March 10, 2026",
+      "readTime": "4 min read",
+      "excerpt": "I keep noticing how easy it is to reward volume and miss the quieter thing that actually makes work memorable.",
+      "content": [
+        "I have been thinking about how often we praise output when what we really admire is judgment. It is easy to count how much someone makes. It is harder to notice when they made the right thing in the right way.",
+        "To me, taste is not decoration. It shows up in restraint, timing, wording, and what gets left out. It is the part that protects the feeling of the work.",
+        "I want to build things that feel considered. Even when I move fast, I do not want speed to flatten my standards.",
+        "The more I work, the more I feel that people remember care. Volume creates noise. Taste creates identity."
+      ]
+    },
+    {
+      "slug": "attention-after-tools",
+      "title": "What tools do to attention",
+      "category": "Culture",
+      "date": "March 5, 2026",
+      "readTime": "3 min read",
+      "excerpt": "I like useful tools, but I keep wondering what they quietly train me to notice and what they train me to ignore.",
+      "content": [
+        "I like tools. I like speed. I like systems. But I am also starting to notice that every tool carries a way of seeing the world inside it.",
+        "Some tools make me sharper. Others make me restless. Some help me express what matters. Others slowly train me to care about metrics instead of meaning.",
+        "The question I keep coming back to is simple: does this help me notice the right things, or just more things?"
+      ]
+    },
+    {
+      "slug": "calmer-ambition",
+      "title": "Choosing a calmer ambition",
+      "category": "Life",
+      "date": "February 27, 2026",
+      "readTime": "5 min read",
+      "excerpt": "I am trying to hold on to ambition without letting it turn everything into urgency.",
+      "content": [
+        "For a long time, I assumed ambition had to feel intense all the time. If I was not rushing, I thought I was slipping.",
+        "Now I am more interested in a steadier kind of ambition. The kind that still wants meaningful work, but does not demand panic as proof of seriousness.",
+        "A calmer ambition leaves room for thought. It makes space for recovery, relationships, and depth. It asks what is worth building, not just what can be built quickly.",
+        "That is the pace I want in my life, and it is the pace I want this website to keep."
+      ]
+    }
+  ]
+}

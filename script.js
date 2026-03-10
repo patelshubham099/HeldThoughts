@@ -8,6 +8,8 @@ const categoryClassMap = {
   Culture: "tag-culture"
 };
 
+let posts = [];
+
 function renderPostCards() {
   postGrid.innerHTML = posts
     .map(
@@ -39,6 +41,7 @@ function renderTopics() {
 function renderArticle(slug) {
   const post = posts.find((entry) => entry.slug === slug) || posts[0];
   if (!post) {
+    articleView.innerHTML = '<p class="article-placeholder">No post found.</p>';
     return;
   }
 
@@ -91,7 +94,26 @@ function attachEvents() {
   });
 }
 
-renderPostCards();
-renderTopics();
-attachEvents();
-renderArticle(window.location.hash.replace("#", "") || posts[0]?.slug);
+async function loadPosts() {
+  const response = await fetch("./data/posts.json", { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Failed to load posts: ${response.status}`);
+  }
+  const data = await response.json();
+  posts = Array.isArray(data.posts) ? data.posts : [];
+}
+
+async function init() {
+  try {
+    await loadPosts();
+    renderPostCards();
+    renderTopics();
+    attachEvents();
+    renderArticle(window.location.hash.replace("#", "") || posts[0]?.slug);
+  } catch (error) {
+    articleView.innerHTML = '<p class="article-placeholder">Posts could not be loaded right now.</p>';
+    console.error(error);
+  }
+}
+
+init();

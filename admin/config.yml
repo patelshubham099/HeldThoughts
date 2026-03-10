@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: patelshubham099/HeldThoughts
+  branch: main
+  base_url: https://YOUR-OAUTH-DOMAIN.example.com
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+site_url: "https://patelshubham099.github.io/HeldThoughts/"
+display_url: "https://patelshubham099.github.io/HeldThoughts/"
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    files:
+      - label: "Posts"
+        name: "posts"
+        file: "data/posts.json"
+        format: "json"
+        editor:
+          preview: false
+        fields:
+          - label: "Posts"
+            name: "posts"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Slug", name: "slug", widget: "string", hint: "Lowercase words with hyphens, for example calmer-ambition" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "select", options: ["Life", "Tech", "Culture"] }
+              - { label: "Date", name: "date", widget: "string", hint: "Example: March 10, 2026" }
+              - { label: "Read Time", name: "readTime", widget: "string", hint: "Example: 4 min read" }
+              - { label: "Excerpt", name: "excerpt", widget: "text" }
+              - label: "Content"
+                name: "content"
+                widget: "list"
+                field:
+                  label: "Paragraph"
+                  name: "text"
+                  widget: "text"
