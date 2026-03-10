@@ -2,7 +2,7 @@ backend:
   name: github
   repo: patelshubham099/HeldThoughts
   branch: main
-  base_url: https://YOUR-OAUTH-DOMAIN.example.com
+  base_url: https://heldthoughts-oauth.patelshubham152-ps.workers.dev
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
@@ -38,3 +38,4 @@ collections:
                   label: "Paragraph"
                   name: "text"
                   widget: "text"
+
