@@ -27,7 +27,7 @@ collections:
             fields:
               - { label: "Slug", name: "slug", widget: "string", hint: "Lowercase words with hyphens, for example calmer-ambition" }
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Category", name: "category", widget: "select", options: ["Life", "Tech", "Culture"] }
+              - { label: "Category", name: "category", widget: "string", hint: "Example: Life, Tech, Culture, Work, Family, Reflection" }
               - { label: "Date", name: "date", widget: "string", hint: "Example: March 10, 2026" }
               - { label: "Read Time", name: "readTime", widget: "string", hint: "Example: 4 min read" }
               - { label: "Excerpt", name: "excerpt", widget: "text" }
@@ -38,4 +38,3 @@ collections:
                   label: "Paragraph"
                   name: "text"
                   widget: "text"
-
