@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "title": "What are we feeding ourselves?",
+      "slug": "what-are-we-feeding-ourselves",
+      "category": "Life",
+      "date": "March 11, 2026",
+      "readTime": "4 min read",
+      "excerpt": "So much of what we consume every day pushes us toward money, speed, and performance, while the quieter parts of life slowly get pushed aside.",
+      "content": [
+        "When I open LinkedIn, I keep seeing the same things again and again. Posts about chasing money, doing better at work, becoming more efficient, and recycled news repeated in slightly different words. After a point, it starts to feel like one endless stream of ambition speaking through everyone.\n\nSometimes I wonder what this constant exposure is doing to us. Not just what it makes us think about, but what it teaches us to value. It slowly turns life into a performance of growth, visibility, achievement, followers, reactions, and being seen.\n\nWhat makes it harder is that even when I notice it, I still get pulled into it. There is a constant pressure to keep chasing and consuming, even when it leaves the mind crowded and the heart empty. It becomes difficult to tell whether we are actually living, or just staying busy inside a system that keeps asking for more.\n\nThere are other parts of life that feel just as important, maybe even more. Chilling without guilt. Stargazing. Gardening. Devotion. Art. Riding. Observing things quietly. Talking properly with family. These things do not ask for much money, but they ask for presence, and maybe that is why they are so easy to postpone.\n\nI keep wondering when we will begin to live from the inside out instead of letting the outside world decide what matters. The world is changing fast, but maybe a meaningful life is still hidden in simple things we keep ignoring while we chase the next visible reward.\n"
+      ]
+    },
+    {
       "slug": "taste-over-volume",
       "title": "Why taste matters more than output",
       "category": "Tech",
@@ -50,17 +61,6 @@
       "excerpt": "How we started talking from 2min and now to 2 hours  ",
       "content": [
         "This is about someone , The  ❤️  which came in my life 8 months back , things changed..."
-      ]
-    },
-    {
-      "title": "What are we feeding ourselves?",
-      "slug": "what-are-we-feeding-ourselves",
-      "category": "Life",
-      "date": "March 11, 2026",
-      "readTime": "4 min read",
-      "excerpt": "So much of what we consume every day pushes us toward money, speed, and performance, while the quieter parts of life slowly get pushed aside.",
-      "content": [
-        "When I open LinkedIn, I keep seeing the same things again and again. Posts about chasing money, doing better at work, becoming more efficient, and recycled news repeated in slightly different words. After a point, it starts to feel like one endless stream of ambition speaking through everyone.\n\nSometimes I wonder what this constant exposure is doing to us. Not just what it makes us think about, but what it teaches us to value. It slowly turns life into a performance of growth, visibility, achievement, followers, reactions, and being seen.\n\nWhat makes it harder is that even when I notice it, I still get pulled into it. There is a constant pressure to keep chasing and consuming, even when it leaves the mind crowded and the heart empty. It becomes difficult to tell whether we are actually living, or just staying busy inside a system that keeps asking for more.\n\nThere are other parts of life that feel just as important, maybe even more. Chilling without guilt. Stargazing. Gardening. Devotion. Art. Riding. Observing things quietly. Talking properly with family. These things do not ask for much money, but they ask for presence, and maybe that is why they are so easy to postpone.\n\nI keep wondering when we will begin to live from the inside out instead of letting the outside world decide what matters. The world is changing fast, but maybe a meaningful life is still hidden in simple things we keep ignoring while we chase the next visible reward.\n"
       ]
     }
   ]
